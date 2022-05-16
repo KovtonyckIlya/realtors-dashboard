@@ -1,0 +1,52 @@
+@import "../../assets/scss/lbd/variables";
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form {
+  flex: 1 1 auto;
+}
+
+.pagination-wrapper li {
+  list-style-type: none;
+  margin-right: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.pagination-wrapper .previous a,
+.pagination-wrapper .next a{
+  color: #333333;
+}
+
+.pagination-wrapper .selected {
+  position: relative;
+  color: $red-button-color;
+
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    top: 25px;
+    left: 0px;
+    background-color: #333333;
+  }
+}
+
+.pagination-wrapper .disabled a{
+  color: grey !important;
+  text-decoration: none;
+}
+
+.pagination-wrapper .next a{
+  text-decoration: none;
+}
+
+.pagination-wrapper .previous a{
+  text-decoration: none;
+}

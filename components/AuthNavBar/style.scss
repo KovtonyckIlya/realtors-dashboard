@@ -1,0 +1,10 @@
+.logo {
+  height: 85px;
+  width: 329px;
+  background-image: url("../../assets/icon/accutech_logo 1.png");
+
+  &-wrapper {
+    display: flex;
+    width: 100%;
+  }
+}

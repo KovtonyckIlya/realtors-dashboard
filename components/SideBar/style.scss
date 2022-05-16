@@ -1,0 +1,17 @@
+.logout {
+  margin-top: 40px !important;
+}
+
+.sidebar .nav, body > .navbar-collapse .nav {
+  margin-top: 40px !important;
+}
+
+.sidebar .nav, body > .navbar-collapse .nav,
+.sidebar .nav li .nav-link, body > .navbar-collapse .nav li .nav-link,
+.sidebar .nav .nav-link, body > .navbar-collapse .nav .nav-link,{
+  border-radius: unset !important;
+}
+
+.sidebar .nav li .nav-link, body > .navbar-collapse .nav li .nav-link {
+  padding: 5px 20px;
+}

@@ -1,0 +1,16 @@
+@import "../../assets/scss/lbd/variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88px;
+  border-bottom: 1px solid $border-color;
+
+  &-logo {
+    width: 211px;
+    height: 54px;
+    background-image: url("../../assets/icon/accutech_logo 1.png");
+    background-size: cover;
+  }
+}
